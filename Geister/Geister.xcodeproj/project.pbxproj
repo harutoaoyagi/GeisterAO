@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		640885BF23577AF400B3A9DF /* check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640885BE23577AF400B3A9DF /* check.swift */; };
+		645777482328C8C60077B7A3 /* koma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645777472328C8C60077B7A3 /* koma.swift */; };
+		64C19C2C2317894B000E9B1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C19C2B2317894B000E9B1B /* AppDelegate.swift */; };
+		64C19C2E2317894B000E9B1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C19C2D2317894B000E9B1B /* ViewController.swift */; };
+		64C19C312317894B000E9B1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C19C2F2317894B000E9B1B /* Main.storyboard */; };
+		64C19C342317894B000E9B1B /* Geister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64C19C322317894B000E9B1B /* Geister.xcdatamodeld */; };
+		64C19C362317894D000E9B1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C19C352317894D000E9B1B /* Assets.xcassets */; };
+		64C19C392317894D000E9B1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C19C372317894D000E9B1B /* LaunchScreen.storyboard */; };
+		64C19C442317894D000E9B1B /* GeisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C19C432317894D000E9B1B /* GeisterTests.swift */; };
+		64C19C4F2317894D000E9B1B /* GeisterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C19C4E2317894D000E9B1B /* GeisterUITests.swift */; };
+		64E484642360885200215E24 /* AI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E484632360885200215E24 /* AI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64C19C402317894D000E9B1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64C19C202317894B000E9B1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64C19C272317894B000E9B1B;
+			remoteInfo = Geister;
+		};
+		64C19C4B2317894D000E9B1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64C19C202317894B000E9B1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64C19C272317894B000E9B1B;
+			remoteInfo = Geister;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		641E58F4236485F40040892D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		640885BE23577AF400B3A9DF /* check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = check.swift; sourceTree = "<group>"; };
+		645777472328C8C60077B7A3 /* koma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = koma.swift; sourceTree = "<group>"; };
+		64C19C282317894B000E9B1B /* Geister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C19C2B2317894B000E9B1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64C19C2D2317894B000E9B1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64C19C302317894B000E9B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64C19C332317894B000E9B1B /* Geister.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Geister.xcdatamodel; sourceTree = "<group>"; };
+		64C19C352317894D000E9B1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64C19C382317894D000E9B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64C19C3A2317894D000E9B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C19C3F2317894D000E9B1B /* GeisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C19C432317894D000E9B1B /* GeisterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeisterTests.swift; sourceTree = "<group>"; };
+		64C19C452317894D000E9B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C19C4A2317894D000E9B1B /* GeisterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeisterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C19C4E2317894D000E9B1B /* GeisterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeisterUITests.swift; sourceTree = "<group>"; };
+		64C19C502317894D000E9B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E484632360885200215E24 /* AI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64C19C252317894B000E9B1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C19C3C2317894D000E9B1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C19C472317894D000E9B1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64C19C1F2317894B000E9B1B = {
+			isa = PBXGroup;
+			children = (
+				64C19C2A2317894B000E9B1B /* Geister */,
+				64C19C422317894D000E9B1B /* GeisterTests */,
+				64C19C4D2317894D000E9B1B /* GeisterUITests */,
+				64C19C292317894B000E9B1B /* Products */,
+				C9E79621A3D66C89A397D168 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		64C19C292317894B000E9B1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64C19C282317894B000E9B1B /* Geister.app */,
+				64C19C3F2317894D000E9B1B /* GeisterTests.xctest */,
+				64C19C4A2317894D000E9B1B /* GeisterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64C19C2A2317894B000E9B1B /* Geister */ = {
+			isa = PBXGroup;
+			children = (
+				64C19C2B2317894B000E9B1B /* AppDelegate.swift */,
+				64C19C2D2317894B000E9B1B /* ViewController.swift */,
+				645777472328C8C60077B7A3 /* koma.swift */,
+				640885BE23577AF400B3A9DF /* check.swift */,
+				64E484632360885200215E24 /* AI.swift */,
+				64C19C2F2317894B000E9B1B /* Main.storyboard */,
+				64C19C352317894D000E9B1B /* Assets.xcassets */,
+				64C19C372317894D000E9B1B /* LaunchScreen.storyboard */,
+				64C19C3A2317894D000E9B1B /* Info.plist */,
+				64C19C322317894B000E9B1B /* Geister.xcdatamodeld */,
+			);
+			path = Geister;
+			sourceTree = "<group>";
+		};
+		64C19C422317894D000E9B1B /* GeisterTests */ = {
+			isa = PBXGroup;
+			children = (
+				64C19C432317894D000E9B1B /* GeisterTests.swift */,
+				64C19C452317894D000E9B1B /* Info.plist */,
+			);
+			path = GeisterTests;
+			sourceTree = "<group>";
+		};
+		64C19C4D2317894D000E9B1B /* GeisterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64C19C4E2317894D000E9B1B /* GeisterUITests.swift */,
+				64C19C502317894D000E9B1B /* Info.plist */,
+			);
+			path = GeisterUITests;
+			sourceTree = "<group>";
+		};
+		C9E79621A3D66C89A397D168 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64C19C272317894B000E9B1B /* Geister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C19C532317894D000E9B1B /* Build configuration list for PBXNativeTarget "Geister" */;
+			buildPhases = (
+				64C19C242317894B000E9B1B /* Sources */,
+				64C19C252317894B000E9B1B /* Frameworks */,
+				64C19C262317894B000E9B1B /* Resources */,
+				641E58F4236485F40040892D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Geister;
+			productName = Geister;
+			productReference = 64C19C282317894B000E9B1B /* Geister.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64C19C3E2317894D000E9B1B /* GeisterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C19C562317894D000E9B1B /* Build configuration list for PBXNativeTarget "GeisterTests" */;
+			buildPhases = (
+				64C19C3B2317894D000E9B1B /* Sources */,
+				64C19C3C2317894D000E9B1B /* Frameworks */,
+				64C19C3D2317894D000E9B1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64C19C412317894D000E9B1B /* PBXTargetDependency */,
+			);
+			name = GeisterTests;
+			productName = GeisterTests;
+			productReference = 64C19C3F2317894D000E9B1B /* GeisterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64C19C492317894D000E9B1B /* GeisterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C19C592317894D000E9B1B /* Build configuration list for PBXNativeTarget "GeisterUITests" */;
+			buildPhases = (
+				64C19C462317894D000E9B1B /* Sources */,
+				64C19C472317894D000E9B1B /* Frameworks */,
+				64C19C482317894D000E9B1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64C19C4C2317894D000E9B1B /* PBXTargetDependency */,
+			);
+			name = GeisterUITests;
+			productName = GeisterUITests;
+			productReference = 64C19C4A2317894D000E9B1B /* GeisterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64C19C202317894B000E9B1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = haruto;
+				TargetAttributes = {
+					64C19C272317894B000E9B1B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					64C19C3E2317894D000E9B1B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 64C19C272317894B000E9B1B;
+					};
+					64C19C492317894D000E9B1B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 64C19C272317894B000E9B1B;
+					};
+				};
+			};
+			buildConfigurationList = 64C19C232317894B000E9B1B /* Build configuration list for PBXProject "Geister" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64C19C1F2317894B000E9B1B;
+			productRefGroup = 64C19C292317894B000E9B1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64C19C272317894B000E9B1B /* Geister */,
+				64C19C3E2317894D000E9B1B /* GeisterTests */,
+				64C19C492317894D000E9B1B /* GeisterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64C19C262317894B000E9B1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C19C392317894D000E9B1B /* LaunchScreen.storyboard in Resources */,
+				64C19C362317894D000E9B1B /* Assets.xcassets in Resources */,
+				64C19C312317894B000E9B1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C19C3D2317894D000E9B1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C19C482317894D000E9B1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64C19C242317894B000E9B1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C19C2E2317894B000E9B1B /* ViewController.swift in Sources */,
+				645777482328C8C60077B7A3 /* koma.swift in Sources */,
+				640885BF23577AF400B3A9DF /* check.swift in Sources */,
+				64C19C2C2317894B000E9B1B /* AppDelegate.swift in Sources */,
+				64C19C342317894B000E9B1B /* Geister.xcdatamodeld in Sources */,
+				64E484642360885200215E24 /* AI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C19C3B2317894D000E9B1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C19C442317894D000E9B1B /* GeisterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C19C462317894D000E9B1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C19C4F2317894D000E9B1B /* GeisterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64C19C412317894D000E9B1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64C19C272317894B000E9B1B /* Geister */;
+			targetProxy = 64C19C402317894D000E9B1B /* PBXContainerItemProxy */;
+		};
+		64C19C4C2317894D000E9B1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64C19C272317894B000E9B1B /* Geister */;
+			targetProxy = 64C19C4B2317894D000E9B1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64C19C2F2317894B000E9B1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64C19C302317894B000E9B1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64C19C372317894D000E9B1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64C19C382317894D000E9B1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64C19C512317894D000E9B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64C19C522317894D000E9B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64C19C542317894D000E9B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = clark;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Geister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clark.game.ai.Geister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64C19C552317894D000E9B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = clark;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Geister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clark.game.ai.Geister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64C19C572317894D000E9B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clark.game.ai.GeisterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geister.app/Geister";
+			};
+			name = Debug;
+		};
+		64C19C582317894D000E9B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clark.game.ai.GeisterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geister.app/Geister";
+			};
+			name = Release;
+		};
+		64C19C5A2317894D000E9B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeisterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clark.game.ai.GeisterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Geister;
+			};
+			name = Debug;
+		};
+		64C19C5B2317894D000E9B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeisterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clark.game.ai.GeisterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Geister;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64C19C232317894B000E9B1B /* Build configuration list for PBXProject "Geister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C19C512317894D000E9B1B /* Debug */,
+				64C19C522317894D000E9B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C19C532317894D000E9B1B /* Build configuration list for PBXNativeTarget "Geister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C19C542317894D000E9B1B /* Debug */,
+				64C19C552317894D000E9B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C19C562317894D000E9B1B /* Build configuration list for PBXNativeTarget "GeisterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C19C572317894D000E9B1B /* Debug */,
+				64C19C582317894D000E9B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C19C592317894D000E9B1B /* Build configuration list for PBXNativeTarget "GeisterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C19C5A2317894D000E9B1B /* Debug */,
+				64C19C5B2317894D000E9B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64C19C322317894B000E9B1B /* Geister.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64C19C332317894B000E9B1B /* Geister.xcdatamodel */,
+			);
+			currentVersion = 64C19C332317894B000E9B1B /* Geister.xcdatamodel */;
+			path = Geister.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64C19C202317894B000E9B1B /* Project object */;
+}
